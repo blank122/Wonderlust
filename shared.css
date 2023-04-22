@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url("https://use.typekit.net/wye7faz.css");
+header {
+    background-color: #FAF5EF;
+    box-shadow: 0 0 36px 0;
+    backdrop-filter: blur(3px);
+    position: sticky;
+    width: 100%;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    padding: 1.2rem 0rem;
+}
+
+/* .logo {
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+} */
+
+.navbar-brand img{
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding: 0;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.button {
+    display: flex;
+    gap: 1rem;
+}
+
+.button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #000;
+    border: 1px solid #000;
+    background-color: transparent;
+    padding: .5rem 1rem;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+ .button a:hover {
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #152939;
+    transition: all .3s ease-in-out;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: #E9F8FF;
+    padding-top: 5rem;
+}
+
+footer .flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .soc-media-icons i{
+    font-size: 2rem;
+    padding-left: 0.8rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    color: rgba(0, 0, 0, .6);
+}
+
+footer .soc-media-icons i:hover{
+    color: #152939;
+    transition: all .3s ease-in-out;
+}
+
+.about-us ul li a,
+.travel-guides ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+
+
+.travel-guides ul li a{
+    text-align: end;
+}
+
+.copyright{
+    background-color: #374A53;
+    padding: 1rem;
+}
+.copyright p{
+    color: white;
+}
